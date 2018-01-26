@@ -1,0 +1,46 @@
+# Template Description file for a Weka package
+#
+#
+
+# Package name (required)
+PackageName=rnn-forecaster
+
+# Version (required)
+Version={VERSION}
+
+#Date
+Date={DATE}
+
+# Title (required)
+Title=Timeseries forecastin with RNNs
+
+Category=Classification/Regression
+
+# Author (required)
+Author=Steven Lang
+
+# Maintainer (required)
+Maintainer=Weka team <wekalist@list.scms.waikato.ac.nz>
+
+# License (required)
+License=GPL 3.0
+
+Description=Provides a Recurrent Neural Network timeseries forecasting model.
+
+Changes=Initial version
+
+# Package URL for obtaining the package archive (required)
+#TODO
+PackageURL=https://github.com/Waikato/wekaDeeplearning4j/releases/download/v{VERSION}/wekaDeeplearning4j-CPU-{VERSION}-{PLATFORM}-x86_64.zip
+
+# URL for further information
+URL=https://deeplearning.cms.waikato.ac.nz/
+
+# Dependencies
+Depends=weka (>=3.8.0), timeseriesForecasting (>=1.0.24)
+
+# Package(s) that can't be installed alongside this one
+# - old wekaDeeplearning4j
+# - GPU version of this package (GPU-dev)
+# - other platforms inserted on build time
+#Precludes=
