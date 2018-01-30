@@ -228,7 +228,7 @@
     </exec>
 
 
-    <zip destfile="${dist}/${package}.zip" basedir="${dist}/${package}"/>
+    <zip destfile="${dist}/${package}-${version}.zip" basedir="${dist}/${package}"/>
     <copy file="${dist}/${package}/${package}.jar" todir="${dist}"/>
   </target>
 
