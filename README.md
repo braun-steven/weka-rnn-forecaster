@@ -1,6 +1,6 @@
 # Weka RNN Timeseries Forecasting
 
-This package provides a timeseries forecasting for weka using Recurrent Neural Networks. 
+This package provides a timeseries forecasting model for weka using Recurrent Neural Networks. 
 
 ## Build Locally
 
